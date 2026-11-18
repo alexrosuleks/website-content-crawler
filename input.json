@@ -1,0 +1,17 @@
+{
+  "startUrls": [
+    {
+      "url": "https://docs.python.org/3/tutorial/"
+    }
+  ],
+  "maxCrawlPages": 10,
+  "respectRobotsTxtFile": true,
+  "useSitemaps": false,
+  "useLlmsTxt": false,
+  "removeElementsCssSelector": "nav, footer, script, style, noscript, svg, img[src^='data:'],\n[role=\"alert\"],\n[role=\"banner\"],\n[role=\"dialog\"],\n[role=\"alertdialog\"],\n[role=\"region\"][aria-label*=\"skip\" i],\n[aria-modal=\"true\"]",
+  "blockMedia": false,
+  "proxyConfiguration": {
+    "useScrapelyProxy": true
+  },
+  "storeSkippedUrls": false
+}

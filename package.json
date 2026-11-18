@@ -1,0 +1,19 @@
+{
+  "name": "website-content-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website Content Crawler: Crawl whole websites and extract clean text and Markdown for AI models, vector databases, and RAG pipelines. Removes navigation and boilerplate and keeps titles, metadata, and",
+  "main": "example.js",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraping",
+    "scrapely"
+  ],
+  "dependencies": {
+    "scrapely-client": "^2.25.15"
+  },
+  "license": "MIT"
+}
